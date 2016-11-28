@@ -1,0 +1,15 @@
+- static-list:
+   - { title: "abc", value: "2" }
+   - { title: "aaa", value: "1" }
+   - { title: "acb", value: "3" }
+   - { title: "zzz", value: "4" }
+
+- rofi:
+    mesg: "Hello!!!"
+    multi-select: True
+    kb-accept-entry: "!Return"
+    kb-default-action: "xxx"
+    kb-custom:
+      "copy": "Alt-9"
+      "url": "Alt-2"
+    prompt: "Test > "
